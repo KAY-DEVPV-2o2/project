@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"  # Specify the package ecosystem
+    directory: "/"  # Adjust the directory if needed
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "fix"  # Add a prefix to commit messages for easier identification
+    ignore:
+      - dependency-name: "some-package"  # Specify any dependencies to ignore
+        versions: ["1.x.x", "2.x.x"]  # Optional: specify versions to ignore
+    allow:
+      - dependency-type: "direct"  # Only update direct dependencies
