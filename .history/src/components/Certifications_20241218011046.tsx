@@ -9,12 +9,12 @@ const certifications = [
   },
   {
     title: 'JavaScript Algorithms and Data Structures (BETA)',
-    url: 'https://www.freecodecamp.org/certification/K-Devp-V-2o2/javascript-algorithms-and-data-structures-v8',
+    url: 'https://www.freecodecamp.org/certification/K-DEVPV-2O2/javascript-algorithms-and-data-structures-v8',
     description: 'Advanced problem-solving and algorithm implementation',
   },
   {
     title: 'Legacy JavaScript Algorithms and Data Structures',
-    url: 'https://www.freecodecamp.org/certification/K-Devp-V-2o2/javascript-algorithms-and-data-structures',
+    url: 'https://www.freecodecamp.org/certification/K-DEVPV-2O2/javascript-algorithms-and-data-structures',
     description: 'Fundamental JavaScript concepts and programming paradigms',
   },
 ];

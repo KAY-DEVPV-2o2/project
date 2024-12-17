@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
 
         <a
-          href="https://www.freecodecamp.org/K-Devp-V-2O2"
+          href="https://www.freecodecamp.org/K-DEVPV-2O2"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 text-lg font-medium text-white bg-gradient-to-r 
