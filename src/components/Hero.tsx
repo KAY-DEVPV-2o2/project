@@ -17,7 +17,7 @@ export default function Hero() {
           </span>
         </h1>
         <h2 className="text-2xl sm:text-3xl mb-8 text-gray-300">
-          Generative AI & FullStack & Chatbot Developer
+          Generative AI & Full-Stack & Chatbot Developer 
         </h2>
         <p className="max-w-2xl mx-auto text-gray-400 mb-8">
           Building the future with code, one project at a time. Specialized in creating innovative solutions
@@ -25,13 +25,13 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center space-x-6 mb-12">
-          <SocialLink href="https://github.com/KAY-DEVPV-2o2" icon={Github} />
-          <SocialLink href="https://linkedin.com" icon={Linkedin} />
-          <SocialLink href="https://twitter.com" icon={Twitter} />
+          <SocialLink href={process.env.REACT_APP_GITHUB_LINK || '#'} icon={Github} />
+          <SocialLink href={process.env.REACT_APP_LINKEDIN_LINK || '#'} icon={Linkedin} />
+          <SocialLink href={process.env.REACT_APP_TWITTER_LINK || '#'} icon={Twitter} />
         </div>
 
         <a
-          href="https://www.freecodecamp.org/K-Devp-V-2O2"
+          href={process.env.REACT_APP_WORK_PORTFOLIO_LINK || '#'}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 text-lg font-medium text-white bg-gradient-to-r 

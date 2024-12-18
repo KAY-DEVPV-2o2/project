@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import { Mail, MessageSquare, Send } from 'lucide-react';
 
 export default function Contact() {
@@ -8,8 +8,11 @@ export default function Contact() {
     message: '',
   });
 
+  const contactEmail = process.env.REACT_APP_CONTACT_EMAIL || 'contact@example.com';
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Handle form submission here
     console.log('Form submitted:', formData);
   };
 
@@ -94,11 +97,11 @@ export default function Contact() {
 
           <div className="mt-12 flex justify-center space-x-6">
             <a
-              href="mailto:kdrebornv.2o2@outlook.com"
+              href={`mailto:${contactEmail}`}
               className="flex items-center text-gray-400 hover:text-purple-400 transition-colors"
             >
               <Mail className="w-5 h-5 mr-2" />
-              kdrebornv.2o2@outlook.com
+              {contactEmail}
             </a>
             <a
               href="#"
