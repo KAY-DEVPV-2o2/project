@@ -18,7 +18,7 @@ export default function Navigation() {
           <div className="flex-shrink-0 flex items-center">
             <Code2 className="h-8 w-8 text-purple-600 dark:text-purple-400" />
             <span className="ml-2 text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
-            K-Devp-V-2o2
+              K-D
             </span>
           </div>
           
