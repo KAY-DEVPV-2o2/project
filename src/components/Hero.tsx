@@ -17,7 +17,7 @@ export default function Hero() {
           </span>
         </h1>
         <h2 className="text-2xl sm:text-3xl mb-8 text-gray-300">
-          Generative AI & Full-Stack & Chatbot Developer 
+        Generative AI, Full-Stack & AI Chatbot Developer 
         </h2>
         <p className="max-w-2xl mx-auto text-gray-400 mb-8">
           Building the future with code, one project at a time. Specialized in creating innovative solutions
